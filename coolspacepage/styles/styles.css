@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+:root {
+    --heading-font: "Orbitron", sans-serif;
+    --paragraph-font: Lato, Helvetica, sans-serif;  
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+    color: #c74850ff;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -50px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg h1 {
+    text-align: center;
+    color: #f7c589ff;
+}
+
+#hero-msg h4 {
+    text-align: center;
+    color: #f7c589ff;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+/* #background {
+    background-color: black;
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+*/
+
+.logo {
+    width: 80px;
+}
+
+.msg {
+    background-color: #302f4eff;
+    color: #e37661ff;
+    line-height: 1.5em;
+    padding: 25px;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+body {
+    color: #e37661ff;
+    background-color: black;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #302f4eff;
+}
+
+nav a:hover {
+    background-color: #302f4eff;
+    color: #f7c589ff;
+}
+
+footer {
+    padding: 25px 50px;
+    color: #f7c589ff;
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #f7c589ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.home-title {
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 475px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.msg h2 {
+    color: #f7c589ff;
+}
+
+.msg p {
+    color: #e37661ff;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.card-img {
+    
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 0 0 5px 5px #6f7364;
+    
+}
+
+.card-img:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.system-card {
+    margin: 30px;
+    grid-column: 2/6;
+    grid-row: 2/4;
+}
+
+.voyager-card {
+    margin: 30px;
+    grid-column: 6/10;
+    grid-row: 2/4;
+}
